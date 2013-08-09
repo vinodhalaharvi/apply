@@ -1,11 +1,11 @@
 The options comes from command line and the operand comes from the file. apply is  Threaded and runs commands in seperate thread which makes it faster to run the bulk pings, snmps, etc..
 
-###pingIPList file
-####2,www.google.com
-####2,mail.google.com
-####2,yahoo.com
-####2,facebook.com
-####2,twitter.com
+####pingIPList file
+	2,www.google.com
+	2,mail.google.com
+	2,yahoo.com
+	2,facebook.com
+	2,twitter.com
 
 `apply ping -c < pingIPList`
 
@@ -46,11 +46,11 @@ The options comes from command line and the operand comes from the file. apply i
 	rtt min/avg/max/mdev = 25.812/27.375/28.938/1.563 ms
 
 
-###snmpList file
-####,public, 1, localhost
+####snmpList file
+,public, 1, localhost
 
 `apply snmpwalk -0S -c -v < snmpList`
-	iso.3.6.1.2.1.1.1.0 = STRING: "Linux server 3.2.0-39-generic-pae #62-Ubuntu SMP Wed Feb 27 22:25:11 UTC 2013 i686"
+	iso.3.6.1.2.1.1.1.0 = STRING: "Linux server 3.2.0-39-generic-pae 
 	iso.3.6.1.2.1.1.2.0 = OID: iso.3.6.1.4.1.8072.3.2.10
 	iso.3.6.1.2.1.1.3.0 = Timeticks: (111595586) 12 days, 21:59:15.86
 	iso.3.6.1.2.1.1.4.0 = STRING: "Me <me@example.org>"
