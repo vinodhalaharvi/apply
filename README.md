@@ -1,5 +1,5 @@
 The options comes from command line and the operand for those options come from stdin.
-Eamples below are self explanatory
+Eamples below are self explanatory. "apply" is threaded.
 
 ####pingIPList file
 	2,www.google.com
