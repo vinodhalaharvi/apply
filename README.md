@@ -47,9 +47,10 @@ The options comes from command line and the operand comes from the file. apply i
 
 
 ####snmpList file
-,public, 1, localhost
+	,public, 1, localhost
 
 `apply snmpwalk -0S -c -v < snmpList`
+
 	iso.3.6.1.2.1.1.1.0 = STRING: "Linux server 3.2.0-39-generic-pae 
 	iso.3.6.1.2.1.1.2.0 = OID: iso.3.6.1.4.1.8072.3.2.10
 	iso.3.6.1.2.1.1.3.0 = Timeticks: (111595586) 12 days, 21:59:15.86
