@@ -1,4 +1,5 @@
-The options comes from command line and the operand comes from the file. apply is  Threaded and runs commands in seperate thread which makes it faster to run the bulk pings, snmps, etc..
+The options comes from command line and the operand for those options come from stdin.
+Eamples below are self explanatory
 
 ####pingIPList file
 	2,www.google.com
