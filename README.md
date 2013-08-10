@@ -101,9 +101,11 @@ Examples below are self explanatory. "apply" is threaded.
 	this is line four
 
 `apply echo -n  < echoList`
+
 	this is line one this is line two this is line three this is line four
 
 `apply echo  < echoList`
+
 	this is line one
 	this is line two
 	this is line three
