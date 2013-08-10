@@ -117,6 +117,7 @@ Examples below are self explanatory. "apply" is threaded.
 You can only have ip in this file and control the options using "apply" command
 
 `apply snmpwalk "-Os -c public -v 2c" < snmpList`
+
 	iso.3.6.1.2.1.1.1.0 = STRING: "Linux server 3.2.0-39-generic-pae #62-Ubuntu SMP Wed Feb 27 22:25:11 UTC 2013 i686"
 	iso.3.6.1.2.1.1.2.0 = OID: iso.3.6.1.4.1.8072.3.2.10
 	iso.3.6.1.2.1.1.3.0 = Timeticks: (118921387) 13 days, 18:20:13.87
